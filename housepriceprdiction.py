@@ -44,8 +44,8 @@ locations=data['locations']
 
 location=st.selectbox("select location",locations)
 
-bath = st.slider("🛁 Number of Bathrooms", 1, 20, 1)
-bhk=st.slider("Number of BHK" ,1,20,1)
+bath = st.slider("🛁 Number of Bathrooms", 1, 5, 1)
+bhk=st.slider("Number of BHK" ,1,5,1)
 sqft=st.number_input("Enter Square Feet Area",min_value=300, max_value=10000)
 
 
